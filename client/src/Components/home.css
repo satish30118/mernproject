@@ -1,0 +1,16 @@
+.home-page{
+    background: linear-gradient(to right, rgb(2, 2, 78), rgb(3, 57, 66));
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.home-page #dynamic{
+    color:red;
+    display: block;
+}
+.home-page-heading{
+    color: wheat;
+}

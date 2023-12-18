@@ -1,0 +1,93 @@
+.about-page{
+    background-color: blanchedalmond;
+    /* height: 200vh; */
+    padding: 50px 0px;
+}
+.about-user{
+    background-color: white;
+    padding: 50px;
+    width: 50vw;
+    margin:0px auto;
+    box-shadow: 0px 0px 6px 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-user-top{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between;*/
+} 
+.user-img{
+    margin-right: 60px;
+}
+.user-img img{
+    width:160px;
+    height: 210px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-data a{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.about-user-bottom{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:1150px){
+    .about-user{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:1150px){
+    .about-user{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:1000px){
+    .about-user{
+        width: 70vw;
+    }
+}
+@media only screen and (max-width:850px){
+    .about-user{
+        width: 80vw;
+    }
+}@media only screen and (max-width:700px){
+    .about-user{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width:580px){
+    .about-user-bottom{
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width:550px){
+    .about-user-bottom{
+        justify-content: space-between;
+        font-size: 17px;
+    }
+    .user-img{
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width:480px){
+    .about-user-bottom{
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .about-user{
+        padding: 40px;
+    }
+    .user-img{
+        margin-right: 30px;
+    }
+}

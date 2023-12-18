@@ -1,0 +1,106 @@
+.contact-page{
+    background: blanchedalmond;
+}
+
+.contact-btn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-form{
+    width: 60vw;
+    /* border: 3px solid red; */
+    margin: 50px auto;
+    padding: 30px 30px;
+    box-shadow: 0 0 5px 2px;
+    background-color: white;
+    text-align: center;
+}
+.contact-form h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    padding-bottom: 8px;
+}
+.contact-form  form div{
+    text-align: center;
+}
+.contact-btn a{
+    text-decoration: none;
+}
+.contact-form  form div input {
+    display: inline-block;
+    width: 270px;
+    height: 30px;
+    margin: 10px 5px;
+    padding: 20px 20px;
+    border: 2px solid gray;
+    font-size: 21px;
+    outline: none;
+}
+.contact-form textarea{
+    margin-top: 30px;
+    outline: none;
+    width: 90%;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.contact-form #contact-btn{
+    background-color: blue;
+    padding: 8px 30px;
+    font-size: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: block;
+}
+
+@media only screen and (max-width:1250px){
+    .contact-form  form div input {
+        width: 330px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .contact-form  form div input {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1000px){
+    .contact-form  form div input {
+        width: 90%;
+    }
+}
+@media only screen and (max-width:700px){
+    .contact-form {
+        width:70vw;
+    }
+}
+@media only screen and (max-width:600px){
+    .contact-form {
+        width:80vw;
+    }
+    .contact-form  form div input {
+        width: 97%;
+    }
+    .contact-form textarea{
+        width:97%;
+    }
+}
+@media only screen and (max-width:500px){
+    .contact-form {
+        width:90vw;
+    }
+}
+@media only screen and (max-width:400px){
+    .contact-form #contact-btn{
+        width: 220px;
+    }
+}

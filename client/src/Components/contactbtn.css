@@ -1,0 +1,36 @@
+.c-btn{
+    width: 400px;
+    box-sizing: border-box;
+    /* border: 2px solid gray; */
+    box-shadow: 0 0 6px 2px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    margin-top: 40px;
+    background-color: white;
+   
+    
+}
+
+.c-btn i{
+    width: 15%;
+    /* margin-right: 20px; */
+    font-size: 24px;
+}
+
+.c-btn div{
+    width: 85%;
+    text-align:left;
+}
+
+.c-btn p{
+    margin:0px;
+    font-size: 20px;
+    font-weight: 510;
+}
+
+@media only screen and (max-width:450px){
+    .c-btn{
+        width: 30px;
+    }
+}
